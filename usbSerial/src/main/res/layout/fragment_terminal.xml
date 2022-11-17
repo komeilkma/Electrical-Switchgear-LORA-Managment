@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Relay" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:text="Relay-1" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:textSize="17dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Relay-2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:text="Relay-3" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:text="Relay-4" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:text="Relay-5" />
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:text="Relay-6" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:text="Relay-7" />
+
+        <Switch
+            android:id="@+id/switch8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:text="Relay-8" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorred"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:text="Relay-1 Closed" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:background="#FF5252"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.5"
+            android:drawablePadding="2dip"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:text="Relay-2 Closed" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="#FF5252"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:text="Relay-3 Closed" />
+
+        <Button
+            android:id="@+id/button4"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="#FF5252"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:text="Relay-4 Closed" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="#FF5252"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:text="Relay-5 Closed" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:paddingLeft="10dp"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:background="#FF5252"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:text="Relay-6 Closed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="#FF5252"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:text="Relay-7 Closed" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="#FF5252"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:text="Relay-8 Closed" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Feeder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switchfiler1"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:alpha="0.5"
+            android:clickable="false"
+            android:switchPadding="0sp"
+            android:layout_height="wrap_content"
+            android:text="ON" />
+
+        <Switch
+            android:id="@+id/switchfiler2"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:textSize="17dp"
+            android:alpha="0.5"
+            android:clickable="false"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="OFF" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/power"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#42A5F5"
+            android:paddingLeft="10dp"
+            android:textSize="17dp"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_power_settings_new_white_24dp"
+            android:text="LOCAL" />
+
+        <Button
+            android:id="@+id/battery"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:paddingLeft="10dp"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorgreen"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_info_white_24dp"
+            android:text="Fualt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fire"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:paddingLeft="10dp"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorgreen"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_info_white_24dp"
+            android:text="ON" />
+
+        <Button
+            android:id="@+id/fualt"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorgreen"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/ic_info_white_24dp"
+            android:text="OFF" />
+    </LinearLayout>
+
+</LinearLayout>
+
